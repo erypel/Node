@@ -6,3 +6,8 @@ fs.appendFile('mynewfile1.txt', "Hello content!", function (err) {
 		throw err;
 	console.log('Saved!');
 });
+
+fs.appendFile('newnewfile1.txt', ' This is my text.', function(err) {
+	if(err) throw err;
+	console.log("Updated!");
+});
